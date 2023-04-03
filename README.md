@@ -7,7 +7,7 @@ The password generator takes in user input and provides a randomly generated pas
 ## Image:
 
 
-![Application Landing Page](./Assets/ApplicationLandingPage.png)
+![Application Landing Page](./Develop/Assets/Images/ApplicationLandingPage.png)
 
 
 
