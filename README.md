@@ -6,11 +6,10 @@ The password generator takes in user input and provides a randomly generated pas
 
 ## Image:
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+
+![Application Landing Page](./Assets/ApplicationLandingPage.png)
+
+
 
 ## To Do:
 <ol>
@@ -19,9 +18,8 @@ SO THAT I can create a strong password that provides greater security
   <li>add all special chars based off https://owasp.org/www-community/password-special-characters </li>
   <li>change font style so boxes are easier to read</li>
   <li>change position of alert boxes</li>
-
-```
+</ol>
 
 ## Link to the application:
-
+Repository: [GitHub](https://github.com/stanno03/PasswordGenerator2.0)
 
