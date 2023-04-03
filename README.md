@@ -15,6 +15,7 @@ SO THAT I can create a strong password that provides greater security
 ## To Do:
 <ol>
   <li>add link to the application in the ReadMe</li>
+  <li>add form validation for user input</li>
   <li>add all special chars based off https://owasp.org/www-community/password-special-characters </li>
   <li>change font style so boxes are easier to read</li>
   <li>change position of alert boxes</li>
