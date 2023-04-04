@@ -5,6 +5,15 @@ let numericValues = ['1','2','3','4','5','6','7','8','9','0'];
 let specialChars = ["!", "@", "#" , "$", "%","^", "&", "*", "(", ")", "-","+", "", ",", ".", "/", ":",";","<","=",">","?","@", "[", "]","_", "`","{","}","|", "~"];
 
 var generateBtn = document.querySelector("#generate");
+
+// write a function that only will compare the users input to string chars and validate.
+// function formValidation(str){
+//   validInputChars = "'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'";
+// if(str.contains(!validInputChars)
+//   alert("not a valid input, please use numeric values only")  
+//     }
+//   }
+
 // function that runs when generate password button is clicked and prompts for inputs to generate then display the password
 function writePassword() {
   const passwordGenerated = [];
@@ -17,11 +26,9 @@ function writePassword() {
     alert("Error! Please select a value between 8 and 128 Characters");
     return;
 }
-// write a condition to check only numbers have been entered.
-  // if(password.contains())
 
-  var lowercaseConfirm = confirm("Do you require Lowercase Characters??")
-    if(lowercaseConfirm){
+  var lowerCaseConfirm = confirm("Do you require Lowercase Characters??")
+    if(lowerCaseConfirm){
       validChars = validChars.concat(lowerKeys);
   }
   var upperCaseConfirm = confirm("Do you require Uppercase Characters??")
@@ -37,6 +44,11 @@ function writePassword() {
     validChars = validChars.concat(specialChars);
   }
   
+  if(!lowerCaseConfirm && !upperCaseConfirm && !numericValuesconfirm &&!specialCharsConfirm){
+    alert("You have selected no parameters please select at least one parameter");
+    return;
+  }
+
 for(let i = 0; i < passwordLength; i++){
     let randomChar = validChars[Math.floor(Math.random() * validChars.length)];
     passwordGenerated.push(randomChar);
